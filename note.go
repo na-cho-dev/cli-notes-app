@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"os"
 	"os/exec"
+	"strconv"
 	"time"
 )
 
@@ -76,13 +77,19 @@ func (notes *Notes) delete(ind int) error {
 	return nil
 }
 
-func (notes *Notes) setFavorite(ind int) error {
+func (notes *Notes) toggleFavorite(ind int, isFavorite string) error {
     if err := notes.ValidateIndex(ind); err != nil {
         fmt.Println(err)
         return err
     }
+
+	boolean, err := strconv.ParseBool(isFavorite)
+	if err != nil {
+		fmt.Println(err)
+        return err
+	}
     index := ind - 1
-	(*notes)[index].IsFavorite = true
+	(*notes)[index].IsFavorite = boolean
 	fmt.Println("Note marked as favorite.")
 	return  nil
 }

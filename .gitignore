@@ -6,7 +6,9 @@
 *.dylib
 *.test
 *.out
-notes
+cli-notes-app-linux-amd64
+cli-notes-app-windows-amd64.exe
+cli-notes-app-darwin-amd64
 
 # Go workspace file
 go.work

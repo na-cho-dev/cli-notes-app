@@ -1,0 +1,44 @@
+[
+    {
+        "title": "Morning Routine Checklist",
+        "body": "Wake up at 6:00 AM and drink a glass of water.\nSpend 10 minutes meditating to clear your mind.\nDo a 30-minute workout: stretching, cardio, and strength exercises.\nTake a shower and have a healthy breakfast.\nReview your goals for the day and write them down in your planner.\n",
+        "isFavorite": true,
+        "createdAt": "2025-09-21T05:08:53.739325108+01:00",
+        "updatedAt": "2025-09-21T05:10:09.72484386+01:00"
+    },
+    {
+        "title": "Project Brainstorming Session",
+        "body": "Today’s brainstorming session focused on new features for the CLI notes app.\nIdeas included:\n\n1. Tagging and categorizing notes\n2. Search functionality with filters\n3. Exporting notes to Markdown or PDF\n4. Cloud sync and backup options\n4. We also discussed UI improvements and user feedback integration.\n",
+        "isFavorite": false,
+        "createdAt": "2025-09-21T05:09:39.867304211+01:00",
+        "updatedAt": "2025-09-21T05:09:39.867304565+01:00"
+    },
+    {
+        "title": "Book Summary: Deep Work",
+        "body": "Deep Work by Cal Newport emphasizes the importance of focused, undistracted work for producing high-quality results.\nKey takeaways:\n\n1. Schedule blocks of time for deep work\n2. Minimize distractions (turn off notifications, close unused tabs)\n3. Set clear goals for each session\n4. Embrace boredom and avoid multitasking\n5. This book is a must-read for anyone looking to improve productivity.\n",
+        "isFavorite": false,
+        "createdAt": "2025-09-21T05:10:54.607134023+01:00",
+        "updatedAt": "2025-09-21T05:10:54.607134459+01:00"
+    },
+    {
+        "title": "Travel Packing List for Japan",
+        "body": "Essentials:\n\n1. Passport, visa, and travel insurance\n2. Flight tickets and hotel reservations\n3. Japanese yen (cash) and credit cards\n4. Clothes for various weather (layers, rain jacket)\n5. Toiletries, medications, and travel adapters\n6. Pocket WiFi or SIM card\n7. Guidebook and phrasebook\n\nDon’t forget to check the weather forecast before packing!\n",
+        "isFavorite": false,
+        "createdAt": "2025-09-21T05:11:53.536558772+01:00",
+        "updatedAt": "2025-09-21T05:11:53.536559114+01:00"
+    },
+    {
+        "title": "Meeting Notes: Q3 Marketing Strategy",
+        "body": "Attendees: Alice, Bob, Carol, and Dave\n\nAgenda:\n1. Review Q2 performance metrics\n2. Set targets for Q3 campaigns\n3. Discuss new content ideas and social media plans\n4. Action Items:\n5. Alice to draft the Q3 content calendar\n6. Bob to analyze competitor campaigns\n7. Carol to coordinate with the design team\n\nNext meeting scheduled for October 5th.\n",
+        "isFavorite": true,
+        "createdAt": "2025-09-21T05:12:56.658954951+01:00",
+        "updatedAt": "2025-09-21T05:13:22.000687302+01:00"
+    },
+    {
+        "title": "Learning Spanish",
+        "body": "Co mo estat mi amor\nGracias\n",
+        "isFavorite": false,
+        "createdAt": "2025-09-21T05:31:48.957833929+01:00",
+        "updatedAt": "2025-09-21T05:32:20.014316593+01:00"
+    }
+]

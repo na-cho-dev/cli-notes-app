@@ -6,7 +6,7 @@
 *.dylib
 *.test
 *.out
-cli-notes-app
+notes
 
 # Go workspace file
 go.work

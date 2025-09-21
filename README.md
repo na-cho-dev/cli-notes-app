@@ -16,11 +16,12 @@ A modern, interactive command-line notes application written in Go. Effortlessly
 
 ### Commands
 
-- `-add-note "Title"` : Add a new note. The body will be entered in your editor.
+- `-create "Title"` : Add a new note. The body will be entered in your editor.
 - `-edit N[:new_title]` : Edit note at index N (1-based). Optionally provide a new title.
 - `-del N` : Delete note at index N.
-- `-favorite N` : Mark note at index N as favorite.
+- `-favorite N[:true]` : Mark note at index N as favorite.
 - `-list` : List all notes, favorites first.
+- `-select N` : List one note..
 
 ### Example
 

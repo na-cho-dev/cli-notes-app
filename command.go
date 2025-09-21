@@ -52,7 +52,7 @@ func (cf *CmdFlags) Execute(notes *Notes) {
 				os.Exit(1)
 			}
 			notes.edit(ind, title)
-		case cf.Favorite != "":
+		case cf.Favorite != "" && cf.Favorite != "Favorite":
 			parts := strings.SplitN(cf.Favorite, ":", 2)
 			if len(parts) != 2 {
 				fmt.Println("Error, invalid format for favorite. Please use id:true or id:false")
